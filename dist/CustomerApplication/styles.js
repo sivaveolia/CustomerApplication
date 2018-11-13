@@ -1,13 +1,13 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/styles.scss":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/lib/loader.js??ref--14-3!./src/styles.scss ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtFQUErRSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  margin: 0;\n  background: #F2F2F2;\n  font-family: 'Montserrat', sans-serif;\n  height: 100vh; }\n#container {\n  display: grid;\n  grid-template-columns: 70px auto;\n  height: 100%; }\n#container #content {\n    padding: 30px 50px; }\n#container #content ul {\n      list-style-type: none;\n      margin: 0;\n      padding: 0; }\n#container #content ul li {\n        background: #fff;\n        border-radius: 80px;\n        padding: 20px;\n        margin-bottom: 8px; }\n#container #content ul li a {\n          font-size: 1.5em;\n          text-decoration: none;\n          font-weight: bold;\n          color: #00A8FF; }\n#container #content ul li ul {\n          margin-top: 20px; }\n#container #content ul li ul li {\n            padding: 0; }\n#container #content ul li ul li a {\n              font-size: 1em;\n              font-weight: 300; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9EOlxcTGVhcm5Bbmd1bGFyXFxMYWIxXFxDdXN0b21lckFwcGxpY2F0aW9uL3NyY1xcc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsK0VBQStFO0FBQy9FO0VBQ0ksVUFBUTtFQUNSLG9CQUFtQjtFQUNuQixzQ0FBcUM7RUFDckMsY0FBYSxFQUNoQjtBQUVEO0VBQ0ksY0FBYTtFQUNiLGlDQUFnQztFQUNoQyxhQUFZLEVBeUNmO0FBNUNEO0lBTVMsbUJBQWtCLEVBcUN0QjtBQTNDTDtNQVVZLHNCQUFxQjtNQUNyQixVQUFRO01BQUMsV0FBVSxFQStCdEI7QUExQ1Q7UUFjZ0IsaUJBQWdCO1FBQ2hCLG9CQUFtQjtRQUNuQixjQUFZO1FBQ1osbUJBQWlCLEVBd0JwQjtBQXpDYjtVQW9Cb0IsaUJBQWdCO1VBQ2hCLHNCQUFxQjtVQUNyQixrQkFBaUI7VUFDakIsZUFBYSxFQUVoQjtBQXpCakI7VUE2Qm9CLGlCQUFlLEVBVWxCO0FBdkNqQjtZQWdDd0IsV0FBVSxFQU1iO0FBdENyQjtjQW1DNEIsZUFBYztjQUNkLGlCQUFnQixFQUNuQiIsImZpbGUiOiJzcmMvc3R5bGVzLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5ib2R5e1xuICAgIG1hcmdpbjowO1xuICAgIGJhY2tncm91bmQ6ICNGMkYyRjI7XG4gICAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0Jywgc2Fucy1zZXJpZjtcbiAgICBoZWlnaHQ6IDEwMHZoO1xufVxuXG4jY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNzBweCBhdXRvO1xuICAgIGhlaWdodDogMTAwJTtcblxuICAgICNjb250ZW50IHtcbiAgICAgICAgIHBhZGRpbmc6IDMwcHggNTBweDtcblxuXG4gICAgICAgIHVsIHtcbiAgICAgICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgICAgICAgICAgIG1hcmdpbjowO3BhZGRpbmc6IDA7XG4gICAgICAgIFxuICAgICAgICAgICAgbGkge1xuICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogODBweDtcbiAgICAgICAgICAgICAgICBwYWRkaW5nOjIwcHg7XG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTo4cHg7XG4gICAgICAgICAgICBcbiAgICAgICAgICAgICAgICBhIHtcbiAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxLjVlbTtcbiAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6IzAwQThGRjtcblxuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgXG5cbiAgICAgICAgICAgICAgICB1bCB7XG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6MjBweDtcblxuICAgICAgICAgICAgICAgICAgICBsaSB7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICBhIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDFlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogMzAwO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICB9XG59Il19 */", '', '']]
 
 /***/ }),
 
@@ -518,15 +518,15 @@ module.exports = function (css) {
 
 /***/ }),
 
-/***/ "./src/styles.css":
-/*!************************!*\
-  !*** ./src/styles.css ***!
-  \************************/
+/***/ "./src/styles.scss":
+/*!*************************!*\
+  !*** ./src/styles.scss ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!./styles.css */ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+var content = __webpack_require__(/*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!../node_modules/sass-loader/lib/loader.js??ref--14-3!./styles.scss */ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/styles.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -549,13 +549,13 @@ if(false) {}
 /***/ }),
 
 /***/ 2:
-/*!******************************!*\
-  !*** multi ./src/styles.css ***!
-  \******************************/
+/*!*******************************!*\
+  !*** multi ./src/styles.scss ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\LearnAngular\Lab1\CustomerApplication\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! D:\LearnAngular\Lab1\CustomerApplication\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
